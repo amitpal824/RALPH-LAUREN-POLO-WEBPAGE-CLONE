@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html
+BODY{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    background-color: #c9c9c9;
+    background-image: url(RL_POLO-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    height: auto;
+    width: 100%;
+}
+
+.MAIN{
+    height: 100px;
+    width: 100px;
+}
+
+.nav{
+    height: 110px;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 50px;
+}
+
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav img{
+    height: 80px;
+    width: auto;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.nav-1 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-1 ul li{
+
+margin-right: 40px;
+font-size: 19px;
+font-weight: 500;
+cursor: pointer;
+}
+
+.div-nav-2{
+    margin-left:400px;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 0%;
+    letter-spacing:5px;
+
+}
+
+.content{
+    height: calc(100%-110px);
+    width: 100;
+    position: relative ;
+    display: flex;
+}
+
+h1{
+    font-size: medium;
+    margin:0 20px;;
+}
+
+h5{
+    font-size: medium;
+    margin:20px;
+    font-style:italic
+}
+
+.content-left{
+    height: 100%;
+    width:100vw;
+}
+
+.content-left h5{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #015994;
+    margin-bottom: 10px;
+}
+
+.content-left h1{
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #000000;
+     margin-bottom: 25px;
+     margin-right:500px;
+}
+
+.content-left p{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 30px;
+    margin: 20px;
+    margin-right:500px;
+    width: 300px;
+}
+
+
+.btn{
+    color: white;
+    background-color: #000;
+    font-size: 15px;
+    padding: 12px 40px;
+    font-weight: 600;
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    font-style: oblique;
+    margin: 20px;
+    margin-top: 1px;
+    border-top-left-radius: 5px;
+
+}
+
+
+
+.content-right{
+
+height: 100%;
+width: 100%;
+padding: 80px 90px;
+white-space: nowrap;
+margin-right: 10px;
+overflow-x: auto;
+}
+
+.content-right::-webkit-scrollbar{
+    display: none;
+}
+
+.product{
+
+     height: 350px;
+     width: 250px;
+     background-color: rgb(192, 192, 192);
+     box-shadow: 0 5px 10px #1011;
+     margin-right: 20px;
+     display: inline-block;
+     white-space: nowrap;
+}
+
+.product img{
+    margin-right: 10px;
+    height: 250px;
+    width: 100%;   
+    bottom: 20px;
+    align-items: center;
+}
+
+.price{
+    font-weight: 700;
+    font-style: italic;
+}
+img:hover{
+    scale: 1.1;
+    transition: 0.51s;
+    transition-behavior: normal;
+    transition-duration: 0.51s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+
+}
+
+.nav-1 ul li:hover{
+    scale:1.1;
+    transition: 0.51s;
+    transition-behavior: normal;
+    transition-duration: 0.51s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000000;
+}
